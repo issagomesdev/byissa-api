@@ -3,6 +3,6 @@ import { Category } from '../entity/Category'
 
 export const getAllCategories = async () => {
   const repo = AppDataSource.getRepository(Category)
-  const [data] = await repo.find({ order: { name: 'ASC' } })
+  const data = await repo.find({ order: { id: 'ASC' } })
   return { data }
 }

@@ -60,3 +60,10 @@ export const getProjects = async ({
     data
   }
 }
+
+export const getProject = async (name: string) => {
+
+  const repo = AppDataSource.getRepository(Project);
+  return await repo.findOne({ where: { name } });
+  
+}

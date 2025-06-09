@@ -16,7 +16,7 @@ export class Project {
   @Column()
   name!: string
 
-  @Column()
+   @Column('mediumtext')
   description!: string
 
   @Column('longtext', { nullable: true })
