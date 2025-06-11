@@ -6,7 +6,7 @@ import {
 } from 'typeorm'
 import { Project } from './Project'
 
-@Entity()
+@Entity('categories')
 export class Category {
   @PrimaryGeneratedColumn()
   id!: number

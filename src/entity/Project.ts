@@ -8,7 +8,7 @@ import {
 import { Category } from './Category'
 import { Tech } from './Tech'
 
-@Entity()
+@Entity('projects')
 export class Project {
   @PrimaryGeneratedColumn()
   id!: number
@@ -19,8 +19,13 @@ export class Project {
    @Column('mediumtext')
   description!: string
 
-  @Column('longtext', { nullable: true })
-  content?: string
+@Column({
+  type: 'longtext',
+  nullable: true,
+  charset: 'utf8mb4',
+  collation: 'utf8mb4_unicode_ci',
+})
+content?: string;
 
   @Column({ nullable: true })
   imageUrl?: string
@@ -35,10 +40,10 @@ export class Project {
   orderNumber?: number
 
   @ManyToMany(() => Category, category => category.projects, { cascade: true })
-  @JoinTable({ name: 'project_categories' })
+  @JoinTable({ name: 'projects_categories' })
   categories!: Category[]
 
   @ManyToMany(() => Tech, tech => tech.projects, { cascade: true })
-  @JoinTable({ name: 'project_techs' })
+  @JoinTable({ name: 'projects_techs' })
   techs!: Tech[]
 }
