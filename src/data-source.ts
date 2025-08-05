@@ -7,6 +7,8 @@ import * as dotenv from 'dotenv'
 
 dotenv.config()
 
+const isCompiled = __dirname.includes('dist');
+
 export const AppDataSource = new DataSource({
   type: 'mysql',
   host: process.env.DB_HOST,
@@ -16,7 +18,7 @@ export const AppDataSource = new DataSource({
   database: process.env.DB_NAME,
   synchronize: false,
   logging: false,
-  entities: ['src/entity/*.ts'],
-  migrations: ['src/migration/**/*.ts'],
+  entities: [__dirname + `/entity/*.${isCompiled ? 'js' : 'ts'}`],
+  migrations: [__dirname + `/migration/*.${isCompiled ? 'js' : 'ts'}`],
   subscribers: []
 });
