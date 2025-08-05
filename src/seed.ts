@@ -67,156 +67,156 @@ async function seed() {
         {
             name: 'My Boteco',
             description: `My Boteco é um simulador de gestão de bar em tempo real, onde os jogadores devem atender os clientes rapidamente para maximizar a satisfação. Com foco em velocidade e estratégia, os jogadores preparam bebidas e comidas, ganhando pontos de experiência (XP) e melhorando a reputação do bar. Cada decisão impacta o sucesso, tornando um serviço eficiente e rápido essencial.`,
-            content: ``,
-            imageUrl: 'https://media.byissa.tech/my-boteco/preview.png',
+            imageUrl: 'https://media.byissa.dev/my-boteco/preview.png',
             repositoryLink: 'https://github.com/issagomesdev/my-boteco',
-            demoLink: 'my-boteco.byissa.tech',
+            demoLink: 'my-boteco.byissa.dev',
             orderNumber: 1,
             techSlugs: ['unity', 'c#'],
-            categorySlugs: ['Games', 'Desktop']
+            categorySlugs: ['Games', 'Desktop'],
+            content_file: 'my-boteco.md'
         },
         {
             name: 'Smart Option — Telegram finance Bot',
             description: `SmartOption é uma plataforma de investimento totalmente automatizada baseada no Telegram. Ela permite que os usuários se cadastrem, depositem fundos, recebam lucros diários, gerenciem sua rede de afiliados e obtenham suporte — tudo por meio de uma interface conversacional com painel de administração e integração com o PagBank. Inclui fluxos completos para cadastro, finanças, rede de afiliados e suporte.`,
-            content: ``,
-            imageUrl: 'https://media.byissa.tech/smart-option/preview.png',
+            imageUrl: 'https://media.byissa.dev/smart-option/preview.png',
             repositoryLink: 'https://github.com/issagomesdev/smart-option',
             demoLink: 'web.telegram.org/k/#@smartoptionea_bot',
             orderNumber: 2,
             techSlugs: ['telegram', 'node', 'typescript', 'javascript'],
-            categorySlugs: ['Backend']
+            categorySlugs: ['Backend'],
+            content_file: 'smart-option.md'
         },
         {
             name: 'Smart Option — Admin Panel for Telegram Finance Bot',
             description: `Painel de administração da Smart Option, uma plataforma de bots financeiros do Telegram. Desenvolvido com Next.js, React e Material UI, permite o gerenciamento completo de usuários, saldos financeiros, redes de afiliados e solicitações de suporte. Os recursos incluem registro e edição de usuários, transferências de saldo, histórico detalhado de transações financeiras, visualização da rede de afiliados em vários níveis e gerenciamento de solicitações (saques, depósitos, etc.).`,
-            content: ``,
-            imageUrl: 'https://media.byissa.tech/smart-option-admin/preview.png',
+            imageUrl: 'https://media.byissa.dev/smart-option-admin/preview.png',
             repositoryLink: 'https://github.com/issagomesdev/smart-option-admin',
             demoLink: '',
             orderNumber: 3,
             techSlugs: ['node', 'typescript', 'javascript'],
-            categorySlugs: ['Frontend']
+            categorySlugs: ['Frontend'],
+            content_file: 'smart-option-admin.md'
         },
         {
             name: 'Biko — Social platform for service providers and seekers',
             description: `Biko é uma plataforma que conecta clientes a prestadores de serviços informais, funcionando como uma rede social onde os usuários podem se cadastrar, compartilhar seus trabalhos e interagir por meio de postagens, curtidas e comentários.`,
-            content: ``,
-            imageUrl: 'https://media.byissa.tech/biko/preview.png',
+            imageUrl: 'https://media.byissa.dev/biko/preview.png',
             repositoryLink: 'https://github.com/issagomesdev/biko',
-            demoLink: 'biko.byissa.tech',
+            demoLink: 'biko.byissa.dev',
             orderNumber: 4,
             techSlugs: ['javascript', 'typescript', 'react', 'node'],
-            categorySlugs: ['Web']
+            categorySlugs: ['Web'],
+            content_file: 'biko.md'
         },
         {
             name: 'Biko — Social platform for service providers and seekers (Laravel API)',
             description: `Biko é uma plataforma que conecta clientes a prestadores de serviços informais, funcionando como uma rede social onde os usuários podem se cadastrar, compartilhar seus trabalhos e interagir por meio de postagens, curtidas e comentários.`,
-            content: ``,
-            imageUrl: 'https://media.byissa.tech/biko/preview.png',
+            imageUrl: 'https://media.byissa.dev/biko/preview.png',
             repositoryLink: 'https://github.com/issagomesdev/biko-api',
             demoLink: '',
             orderNumber: 5,
             techSlugs: ['php', 'laravel', 'sql', 'mysql'],
-            categorySlugs: ['Web']
+            categorySlugs: ['Web'],
+            content_file: 'biko-api.md'
         },
         {
             name: 'Prefeitura de Sairé — Institutional CMS',
             description: `Este projeto é um site institucional municipal que inclui um CMS dinâmico, permitindo que os administradores gerenciem menus, páginas, publicações, galerias de fotos e outros conteúdos informativos por meio de um painel de administração intuitivo. O site é público e foi desenvolvido para o público do governo local.`,
-            content: ``,
-            imageUrl: 'https://media.byissa.tech/saire/preview.png',
+            imageUrl: 'https://media.byissa.dev/saire/preview.png',
             repositoryLink: 'https://github.com/issagomesdev/saire',
-            demoLink: 'saire.byissa.tech',
+            demoLink: 'saire.byissa.dev',
             orderNumber: 6,
             techSlugs: ['php', 'laravel', 'html', 'css', 'javascript', 'sql', 'mysql'],
-            categorySlugs: ['Web']
+            categorySlugs: ['Web'],
+            content_file: 'saire.md'
         },
         {
             name: 'Listinha Vip — Event Management System',
             description: `Listinha Vip é uma plataforma de gerenciamento de eventos desenvolvida com Laravel, HTML, CSS e JavaScript. Ela permite que os usuários confirmem presença, convidem pessoas e façam check-in em eventos por meio de uma interface amigável. A plataforma inclui uma área pública para participantes e um painel administrativo completo para gerentes de eventos.`,
-            content: ``,
-            imageUrl: 'https://media.byissa.tech/event-management/preview.png',
+            imageUrl: 'https://media.byissa.dev/event-management/preview.png',
             repositoryLink: 'https://github.com/issagomesdev/event-management',
-            demoLink: 'em.byissa.tech',
+            demoLink: 'em.byissa.dev',
             orderNumber: 7,
             techSlugs: ['php', 'laravel', 'html', 'css', 'javascript', 'sql', 'mysql'],
-            categorySlugs: ['Web']
+            categorySlugs: ['Web'],
+            content_file: 'event-management.md'
         },
         {
             name: 'CO2 Calculator — CO2 Emissions Calculation Model',
             description: `CO2 Calculator é um modelo web estático e responsivo projetado para empresas calcularem suas emissões de CO2 em diversas categorias, incluindo consumo de combustível, deslocamento de funcionários, emissões fugitivas, consumo de energia, transporte de produtos e equipamentos e viagens de negócios.`,
-            content: ``,
-            imageUrl: 'https://media.byissa.tech/co2/preview.png',
+            imageUrl: 'https://media.byissa.dev/co2/preview.png',
             repositoryLink: 'https://github.com/issagomesdev/co2-calculator-template',
-            demoLink: 'co2c.byissa.tech',
+            demoLink: 'co2c.byissa.dev',
             orderNumber: 8,
             techSlugs: ['php', 'html', 'css'],
-            categorySlugs: ['Web']
+            categorySlugs: ['Web'],
+            content_file: 'co2.md'
         },
         {
             name: 'Risk x Return — Investment Allocation Calculator',
             description: `Risk x Return é uma calculadora web com o objetivo de auxiliar na avaliação do impacto de realocações de investimentos. Ela simula como a transferência de fundos entre renda fixa, renda variável e ativos estrangeiros afeta tanto o risco da carteira quanto o retorno esperado.`,
-            content: ``,
-            imageUrl: 'https://media.byissa.tech/rxr/preview.png',
+            imageUrl: 'https://media.byissa.dev/rxr/preview.png',
             repositoryLink: 'https://github.com/issagomesdev/risk-vs-return',
-            demoLink: 'rxr.byissa.tech',
+            demoLink: 'rxr.byissa.dev',
             orderNumber: 9,
             techSlugs: ['javascript', 'html', 'css'],
-            categorySlugs: ['Web']
+            categorySlugs: ['Web'],
+            content_file: 'rxr.md'
         },
         {
             name: 'Shopping Cart — Interactive Product Showcase',
             description: `Shopping Cart é uma experiência de compras responsiva e dinâmica, exclusivamente frontend, criada como parte de um projeto de portfólio. Ele permite que os usuários interajam com uma lista de produtos, simulem uma experiência de compra e visualizem galerias de produtos em um layout elegante.`,
-            content: ``,
-            imageUrl: 'https://media.byissa.tech/shopping-cart/preview.png',
+            imageUrl: 'https://media.byissa.dev/shopping-cart/preview.png',
             repositoryLink: 'https://github.com/issagomesdev/shopping-cart',
-            demoLink: 'shopping-cart.byissa.tech',
+            demoLink: 'shopping-cart.byissa.dev',
             orderNumber: 10,
             techSlugs: ['javascript', 'html', 'css'],
-            categorySlugs: ['Web']
+            categorySlugs: ['Web'],
+            content_file: 'shopping-cart.md'
         },
         {
             name: 'PImage — Interactive Map Viewer & Editor',
             description: `O PImage é uma ferramenta simples e interativa de mapeamento de imagens, criada como uma solução leve para visualização e edição de dados baseados em mapas em uma interface web, ideal para casos de uso como mapeamento de cemitérios, mapas visuais de assentos, layouts de salas de aula ou qualquer representação espacial baseada em imagens.`,
-            content: ``,
-            imageUrl: 'https://media.byissa.tech/pimage/preview.png',
+            imageUrl: 'https://media.byissa.dev/pimage/preview.png',
             repositoryLink: 'https://github.com/issagomesdev/PImage',
-            demoLink: 'pimage.byissa.tech',
+            demoLink: 'pimage.byissa.dev',
             orderNumber: 11,
             techSlugs: ['javascript', 'html', 'css'],
-            categorySlugs: ['Web']
+            categorySlugs: ['Web'],
+            content_file: 'pimage.md'
         },
         {
             name: 'SJC Educacional — School Management System',
             description: `SJC Educacional é uma plataforma de gestão escolar desenvolvida para auxiliar municípios na organização de seus sistemas de ensino público. Também pode ser adaptada para instituições privadas. Com módulos que abrangem gestão administrativa, cadastro de alunos, diário de classe, transporte, biblioteca, estoque e calendário escolar, o sistema oferece uma solução completa e escalável para as operações escolares.`,
-            content: ``,
-            imageUrl: 'https://media.byissa.tech/sjc/preview.png',
+            imageUrl: 'https://media.byissa.dev/sjc/preview.png',
             repositoryLink: 'https://github.com/issagomesdev/sjc-educacional',
-            demoLink: 'sjceducacional.byissa.tech',
+            demoLink: 'sjceducacional.byissa.dev',
             orderNumber: 12,
             techSlugs: ['php', 'laravel', 'html', 'css', 'javascript', 'sql', 'mysql'],
-            categorySlugs: ['Web']
+            categorySlugs: ['Web'],
+            content_file: 'sjced.md'
         },
         {
             name: 'SJC Cemitério — Cemetery Manager',
             description: `SJC Cemitério é uma plataforma de gestão de cemitérios desenvolvida para auxiliar os municípios na organização e controle de cemitérios públicos, além de oferecer compatibilidade com cemitérios privados. O sistema permite a gestão completa e eficiente de espaços de sepultamento, registros e processos funerários, com cadastro hierárquico (cemitérios, setores, quadras, talhões, ossários e gavetas), além de registros de óbitos, translados e geração de laudos.`,
-            content: ``,
-            imageUrl: 'https://media.byissa.tech/sjcc/preview.png',
+            imageUrl: 'https://media.byissa.dev/sjcc/preview.png',
             repositoryLink: 'https://github.com/issagomesdev/sjc-cemiterio',
-            demoLink: 'sjccemiterio.byissa.tech',
+            demoLink: 'sjccemiterio.byissa.dev',
             orderNumber: 13,
             techSlugs: ['php', 'laravel', 'html', 'css', 'javascript', 'sql', 'mysql'],
-            categorySlugs: ['Web']
+            categorySlugs: ['Web'],
+            content_file: 'sjcce.md'
         },
         {
             name: 'SJC Sistemas — Institutional Website',
             description: `Site institucional desenvolvido para a SJC Sistemas, empresa especializada em soluções educacionais para escolas e prefeituras. Desenvolvido com Laravel, Blade e JavaScript, o site apresenta a empresa, seus produtos, principais funcionalidades e canais de contato.`,
-            content: ``,
-            imageUrl: 'https://media.byissa.tech/sjce/preview.png',
+            imageUrl: 'https://media.byissa.dev/sjce/preview.png',
             repositoryLink: 'https://github.com/issagomesdev/sjc-site',
-            demoLink: 'sjc.byissa.tech',
+            demoLink: 'sjc.byissa.dev',
             orderNumber: 14,
             techSlugs: ['php', 'laravel', 'html', 'css', 'javascript', 'sql', 'mysql'],
-            categorySlugs: ['Web']
+            categorySlugs: ['Web'],
+            content_file: 'sjc.md'
         }
     ]
 

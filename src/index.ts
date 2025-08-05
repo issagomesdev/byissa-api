@@ -3,6 +3,7 @@ import routes from './routes'
 import dotenv from 'dotenv'
 import { AppDataSource } from './data-source'
 import cors from 'cors'
+import path from 'path'
 
 dotenv.config()
 
@@ -14,6 +15,8 @@ app.use(cors())
 app.use(cors({
   origin: '*'
 }))
+
+app.use(express.static('public'));
 app.use('/api', routes)
 
 AppDataSource.initialize()
@@ -21,6 +24,7 @@ AppDataSource.initialize()
     console.log('Data Source initialized')
     app.listen(3000, () => {
       console.log('Server running on http://localhost:3000')
+
     })
   })
   .catch((err) => {

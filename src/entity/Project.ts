@@ -16,16 +16,8 @@ export class Project {
   @Column()
   name!: string
 
-   @Column('mediumtext')
+  @Column('mediumtext')
   description!: string
-
-@Column({
-  type: 'longtext',
-  nullable: true,
-  charset: 'utf8mb4',
-  collation: 'utf8mb4_unicode_ci',
-})
-content?: string;
 
   @Column({ nullable: true })
   imageUrl?: string
@@ -46,4 +38,7 @@ content?: string;
   @ManyToMany(() => Tech, tech => tech.projects, { cascade: true })
   @JoinTable({ name: 'projects_techs' })
   techs!: Tech[]
+
+  @Column()
+  content_file?: string;
 }
