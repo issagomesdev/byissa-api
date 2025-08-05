@@ -22,8 +22,8 @@ app.use('/api', routes)
 AppDataSource.initialize()
   .then(() => {
     console.log('Data Source initialized')
-    app.listen(3000, () => {
-      console.log('Server running on http://localhost:3000')
+    app.listen(PORT, () => {
+      console.log(`Server running on http://localhost:${PORT}`)
 
     })
   })
