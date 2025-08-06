@@ -94,7 +94,7 @@ async function seed() {
             demoLink: '',
             orderNumber: 3,
             techSlugs: ['node', 'typescript', 'javascript'],
-            categorySlugs: ['Frontend'],
+            categorySlugs: ['Web', 'Frontend'],
             content_file: 'smart-option-admin.md'
         },
         {
@@ -105,7 +105,7 @@ async function seed() {
             demoLink: 'biko.byissa.dev',
             orderNumber: 4,
             techSlugs: ['javascript', 'typescript', 'react', 'node'],
-            categorySlugs: ['Web'],
+            categorySlugs: ['Web', 'Frontend'],
             content_file: 'biko.md'
         },
         {
@@ -116,7 +116,7 @@ async function seed() {
             demoLink: '',
             orderNumber: 5,
             techSlugs: ['php', 'laravel', 'sql', 'mysql'],
-            categorySlugs: ['Web'],
+            categorySlugs: ['Web', 'Backend'],
             content_file: 'biko-api.md'
         },
         {
@@ -127,7 +127,7 @@ async function seed() {
             demoLink: 'saire.byissa.dev',
             orderNumber: 6,
             techSlugs: ['php', 'laravel', 'html', 'css', 'javascript', 'sql', 'mysql'],
-            categorySlugs: ['Web'],
+            categorySlugs: ['Web', 'Frontend'],
             content_file: 'saire.md'
         },
         {
@@ -138,7 +138,7 @@ async function seed() {
             demoLink: 'em.byissa.dev',
             orderNumber: 7,
             techSlugs: ['php', 'laravel', 'html', 'css', 'javascript', 'sql', 'mysql'],
-            categorySlugs: ['Web'],
+            categorySlugs: ['Web', 'Frontend'],
             content_file: 'event-management.md'
         },
         {
@@ -149,7 +149,7 @@ async function seed() {
             demoLink: 'co2c.byissa.dev',
             orderNumber: 8,
             techSlugs: ['php', 'html', 'css'],
-            categorySlugs: ['Web'],
+            categorySlugs: ['Web', 'Frontend'],
             content_file: 'co2.md'
         },
         {
@@ -160,7 +160,7 @@ async function seed() {
             demoLink: 'rxr.byissa.dev',
             orderNumber: 9,
             techSlugs: ['javascript', 'html', 'css'],
-            categorySlugs: ['Web'],
+            categorySlugs: ['Web', 'Frontend'],
             content_file: 'rxr.md'
         },
         {
@@ -171,7 +171,7 @@ async function seed() {
             demoLink: 'shopping-cart.byissa.dev',
             orderNumber: 10,
             techSlugs: ['javascript', 'html', 'css'],
-            categorySlugs: ['Web'],
+            categorySlugs: ['Web', 'Frontend'],
             content_file: 'shopping-cart.md'
         },
         {
@@ -182,7 +182,7 @@ async function seed() {
             demoLink: 'pimage.byissa.dev',
             orderNumber: 11,
             techSlugs: ['javascript', 'html', 'css'],
-            categorySlugs: ['Web'],
+            categorySlugs: ['Web', 'Frontend'],
             content_file: 'pimage.md'
         },
         {
@@ -193,7 +193,7 @@ async function seed() {
             demoLink: 'sjceducacional.byissa.dev',
             orderNumber: 12,
             techSlugs: ['php', 'laravel', 'html', 'css', 'javascript', 'sql', 'mysql'],
-            categorySlugs: ['Web'],
+            categorySlugs: ['Web', 'Frontend'],
             content_file: 'sjced.md'
         },
         {
@@ -204,7 +204,7 @@ async function seed() {
             demoLink: 'sjccemiterio.byissa.dev',
             orderNumber: 13,
             techSlugs: ['php', 'laravel', 'html', 'css', 'javascript', 'sql', 'mysql'],
-            categorySlugs: ['Web'],
+            categorySlugs: ['Web', 'Frontend'],
             content_file: 'sjcce.md'
         },
         {
@@ -215,7 +215,7 @@ async function seed() {
             demoLink: 'sjc.byissa.dev',
             orderNumber: 14,
             techSlugs: ['php', 'laravel', 'html', 'css', 'javascript', 'sql', 'mysql'],
-            categorySlugs: ['Web'],
+            categorySlugs: ['Web', 'Frontend'],
             content_file: 'sjc.md'
         }
     ]
