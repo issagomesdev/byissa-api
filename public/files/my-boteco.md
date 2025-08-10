@@ -16,9 +16,9 @@
 <h2>🧭 Index</h2>
 
 <p>
-  • <a href="#gameplay">🧩 Gameplay</a><br/> 
-  • <a href="#roadmap">🚧 Roadmap</a><br/>
-  • <a href="#tech-stack">🛠️ Tech Stack</a><br/>
+  - 🧩 <a style="color: unset;" href="#gameplay">Gameplay</a><br/> 
+  - 🚧 <a style="color: unset;" href="#roadmap">Roadmap</a><br/>
+  - 🛠️ <a style="color: unset;" href="#tech-stack">Tech Stack</a><br/>
 </p>
 
 <h2 id="gameplay">🧩 Gameplay</h2>

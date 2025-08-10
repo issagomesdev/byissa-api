@@ -4,17 +4,19 @@
 
 ![Status](https://img.shields.io/badge/status-in_development-yellow) 
 
-<p align="center">
-  <a href="#about">Sobre</a> •
-  <a href="#roadmap">Roadmap</a> •
-  <a href="#technologies">Tecnologias</a>
-</p>
-
 **Biko** é uma plataforma que conecta clientes a prestadores de serviços informais, funcionando como uma rede social onde usuários podem se cadastrar, divulgar seus trabalhos e interagir por meio de publicações, curtidas e comentários.
 
 Este repositório contém a **API RESTful** desenvolvida em **Laravel**, responsável por todas as operações do backend.
 
 > 🔗 A interface frontend desenvolvida com Next.js está disponível [aqui](https://github.com/issagomesdev/biko).
+
+<h2>🧭 Index</h2>
+
+<p>
+  - 📌 <a style="color: unset;" href="#about">Sobre</a><br/> 
+  - 🚧 <a style="color: unset;" href="#roadmap">Roadmap</a><br/>
+  - 🧪 <a style="color: unset;" href="#tech-stack">Tech Stack</a><br/>
+</p>
 
 <h2 id="about"> 📌 Sobre</h2>
 
@@ -42,7 +44,7 @@ O objetivo é fornecer uma solução prática que conecte prestadores de serviç
 - Endpoints para notificações
 - Integração com sistema de mensagens/chat
 
-<h2 id="technologies"> 🧪 Tecnologias</h2>
+<h2 id="tech-stack"> 🧪 Tech Stack</h2>
 
 Este projeto foi desenvolvido com as seguintes tecnologias e ferramentas:
 

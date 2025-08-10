@@ -2,11 +2,6 @@
 
 ![Node.js](https://img.shields.io/badge/Node.js-18.x-green?style=for-the-badge&logo=node.js&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Express.js](https://img.shields.io/badge/Express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=white) ![Telegram](https://img.shields.io/badge/Telegram-Bot-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white) ![PagBank](https://img.shields.io/badge/PagBank-API-32B768?style=for-the-badge&logo=pagseguro&logoColor=white) ![JWT](https://img.shields.io/badge/JWT-Auth-%2300A7E1?style=for-the-badge&logo=jsonwebtokens&logoColor=white) ![Next.js](https://img.shields.io/badge/Next.js-Admin%20Panel-%23000000?style=for-the-badge&logo=next.js&logoColor=white) [![GitHub Repo](https://img.shields.io/badge/GitHub-Repository%20Link-181717?style=for-the-badge&logo=github)](https://github.com/issagomesdev/smart-option) 
 
-<p align="center">
-  <a href="#about">Sobre</a> •
-  <a href="#features">Funcionalidades</a> •
-  <a href="#technologies">Tecnologias</a> 
-</p>
 
 Plataforma automatizada de investimentos com **bot no Telegram**, **painel administrativo** e **integração com o PagBank**. Inclui fluxos completos de cadastro, movimentações financeiras, rede de afiliados e suporte.
 
@@ -18,6 +13,14 @@ Este repositório contém o **bot Telegram** e a **API RESTful** desenvolvidos e
 > Esta é uma versão de demonstração, criada apenas para fins de teste e visualização.  
 > **Não realize transações ou pagamentos reais.**  
 > O criador **não se responsabiliza** por operações financeiras reais realizadas com esta demo.
+
+<h2>🧭 Index</h2>
+
+<p>
+  - 📌 <a style="color: unset;" href="#about">Sobre</a><br/> 
+  - ✨ <a style="color: unset;" href="#features">Funcionalidades</a><br/>
+  - 🛠️ <a style="color: unset;" href="#tech-stack">Tech Stack</a><br/>
+</p>
 
 <h2 id="about"> 📌 Sobre</h2>
 
@@ -73,7 +76,7 @@ O projeto também inclui um [Repositório do Painel Administrativo](https://gith
 - **Integração com a API PagBank para operações automatizadas**
 - **Gerenciamento centralizado dos chamados de suporte**
 
-<h2 id="technologies">🛠️ Tecnologias</h2>
+<h2 id="tech-stack">🛠️ Tech Stack</h2>
 
 - **Node.js** – Runtime do backend para o bot e a API
 - **TypeScript** – JavaScript tipado para maior segurança e escalabilidade

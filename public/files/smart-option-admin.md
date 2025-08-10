@@ -11,11 +11,6 @@
   <img src="https://so.byissa.dev/images/preview.png" alt="preview" style="max-width:600px; width:100%;"/>
 </p>
 
-<p align="center">
-  <a href="#about">Sobre</a> •
-  <a href="#features">Funcionalidades</a> •
-  <a href="#technologies">Tecnologias</a>
-
 Painel administrativo da plataforma **Smart Option**, um bot financeiro para Telegram. Construído com **Next.js**, **React** e **Material UI**, permite o gerenciamento completo de usuários, saldos financeiros, rede de afiliados e solicitações de suporte.
 
 Funcionalidades incluem cadastro e edição de usuários, transferências de saldo, histórico detalhado de transações, visualização da rede de afiliados com múltiplos níveis e gerenciamento de solicitações (saques, depósitos etc).
@@ -28,6 +23,14 @@ Este painel se conecta via API RESTful ao backend Node.js que alimenta o bot do 
 > Esta é uma versão de demonstração criada apenas para testes e visualização.  
 > **Não realize transações ou pagamentos reais.**  
 > O criador **não se responsabiliza** por qualquer operação financeira feita com esta versão.
+
+<h2>🧭 Index</h2>
+  
+<p>
+  - 📌 <a style="color: unset;" href="#about">Sobre</a><br/> 
+  - ✨ <a style="color: unset;" href="#features">Funcionalidades</a><br/>
+  - 🛠️ <a style="color: unset;" href="#tech-stack">Tech Stack</a><br/>
+</p>
 
 <h2 id="about">📌 Sobre</h2>
 
@@ -48,7 +51,7 @@ O repositório principal do bot está disponível em: [Smart Option — Telegram
 - Integração com a API backend para sincronização em tempo real  
 - Gerenciamento de tickets de suporte e comunicação com usuários
 
-<h2 id="technologies">🛠️ Tecnologias</h2>
+<h2 id="tech-stack">🛠️ Tech Stack</h2>
 
 - **Next.js** — Framework React com renderização do lado do servidor e geração estática  
 - **TypeScript** — JavaScript tipado para maior segurança e manutenção  
