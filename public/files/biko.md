@@ -3,7 +3,7 @@
 ![Next.js](https://img.shields.io/badge/Next.js-000?style=for-the-badge&logo=next.js) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) [![GitHub Repo](https://img.shields.io/badge/GitHub-Repository%20Link-181717?style=for-the-badge&logo=github)](https://github.com/issagomesdev/biko) 
 
 <p align="center">
-  <img src="https://biko.byissa.dev/midia/preview.png" alt="preview" style="max-width:800px; width:100%;"/>
+  <img src="https://biko.byissa.dev/midia/preview.png" alt="preview" style="max-width:1000px; width:100%;"/>
 </p>
 
 ![Status](https://img.shields.io/badge/status-in_development-yellow) 

@@ -8,7 +8,7 @@
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Repository%20Link-181717?style=for-the-badge&logo=github)](https://github.com/issagomesdev/smart-option-admin) 
 
 <p align="center">
-  <img src="https://so.byissa.dev/images/preview.png" alt="preview" style="max-width:600px; width:100%;"/>
+  <img src="https://so.byissa.dev/images/preview.png" alt="preview" style="max-width:1000px; width:100%;"/>
 </p>
 
 Painel administrativo da plataforma **Smart Option**, um bot financeiro para Telegram. Construído com **Next.js**, **React** e **Material UI**, permite o gerenciamento completo de usuários, saldos financeiros, rede de afiliados e solicitações de suporte.
@@ -34,7 +34,7 @@ Este painel se conecta via API RESTful ao backend Node.js que alimenta o bot do 
 
 <h2 id="about">📌 Sobre</h2>
 
-O **Painel Admin do Smart Option** é um dashboard completo de gerenciamento, desenvolvido com **Next.js + React + TypeScript** e **Material UI**. Ele permite que administradores gerenciem usuários, monitorem transações financeiras, processem solicitações de saque/depósito e acompanhem a rede de afiliados da plataforma **Smart Option** diretamente via Telegram.
+O **Painel Admin do Smart Option** é um painel completo de gerenciamento, desenvolvido com **Next.js + React + TypeScript** e **Material UI**. Ele permite que os administradores gerenciem usuários, monitorem transações financeiras, processem solicitações de saque/depósito e acompanhem a rede de afiliados da plataforma **Smart Option** para Telegram.
 
 Este painel se conecta à API backend que alimenta o bot no Telegram, oferecendo uma interface poderosa para controle e análise das atividades da plataforma.
 

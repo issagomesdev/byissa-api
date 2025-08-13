@@ -8,6 +8,7 @@
 
 <p align="center">
   <img src="https://media.byissa.dev/my-boteco/preview.png" alt="Game Preview" style="max-width:600px; width:100%;"/>
+</p>
 
 **My Boteco** é um simulador de gerenciamento de bar em tempo real, onde o jogador precisa atender os clientes rapidamente para maximizar a satisfação. Com foco em agilidade e estratégia, o jogador prepara bebidas e comidas, ganha pontos de experiência (XP) e melhora a reputação do boteco. Cada decisão conta — um serviço rápido e eficiente é essencial para o sucesso.
 
@@ -25,13 +26,13 @@
 
 ### ▶️ Start The Day
 
-- O jogador inicia aproximando-se do avental azul no balcão, ativando a instrução para apertar `X` e começar.
+- O dia começa quando o jogador se aproxima do avental azul no balcão e pressiona `X`.
 
-- Isso faz com que alguns clientes apareçam nas mesas.
+- Isso faz com que alguns clientes ocupem as mesas do cenário.
 
 ### 🧾 Collect Orders
 
-- Aproximando-se de uma mesa e apertando `X`, o jogador coleta os pedidos.
+- Dirigindo-se a uma mesa e pressionando `X`, o jogador coleta os pedidos.
 
 - Os pedidos aparecem em um painel no canto superior direito da tela.
 
@@ -45,7 +46,7 @@
 
 ### 🥤 Prepare Drink
 
-- O jogador se aproxima das bebidas no balcão e aperta `X` para abrir o menu.
+- O jogador vai até as bebidas no balcão e, ao apertar `X`, abre o menu.
 
 - As bebidas são exibidas em uma lista horizontal com ícones e nomes.
 
