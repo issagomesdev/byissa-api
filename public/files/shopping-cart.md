@@ -18,8 +18,7 @@
 
 <h2 id="about">📌 Sobre</h2>
 
-O **Shopping Cart** é um carrinho de compras responsivo e dinâmico, criado como parte de um projeto de portfólio.  
-Permite que os usuários interajam com uma lista de produtos, simulem uma compra e visualizem galerias de imagens em um modal elegante.  
+O **Shopping Cart** Shopping Cart é um carrinho de compras responsivo e dinâmico. Ele permite que os usuários interajam com uma lista de produtos, simulem uma experiência de compra e visualizem galerias de produtos em um layout elegante. 
 
 O projeto demonstra manipulação do DOM, CSS modular, atualizações dinâmicas da interface e interação com galeria de imagens — tudo **sem bibliotecas externas**.
 

@@ -28,6 +28,9 @@ export class Project {
   @Column({ nullable: true })
   demoLink?: string
 
+  @Column({ nullable: true })
+  videoLink?: string
+
   @Column({ type: 'int', default: 0 })
   orderNumber?: number
 
